@@ -1,0 +1,170 @@
+/*<?php the_field();?>*/
+
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+	color: #333;
+	font-family: 'Dosis', sans-serif;
+}
+
+.home{
+    margin: 0;
+}
+
+.header{
+    background-color: green;
+    width: 100%;
+    height: 10rem;
+}
+
+.header ul{
+    list-style-type: none;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 10rem;
+    line-height: 10rem;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.header li{
+    float: left;
+    margin-left: 2rem;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+#first_page{
+	background-image: url(../img/banniere.jpg);	
+	min-height: 80vh;  
+    background-size: cover;
+    position: relative;
+}
+
+#first_bloc{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    }
+
+input{
+    border-radius: 30px;
+    border: none;
+    background-color: darkgreen;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 100;
+    height: 3.5rem;
+    width: 25rem;
+}
+
+    #first{
+        font-size: 2rem;
+    }
+
+    #second{
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: darkgreen;
+        font-weight: bold;
+    }
+
+    #third{
+        font-size: 4rem;
+        text-transform: uppercase;
+        color: greenyellow;
+        font-weight: bold;
+    }
+
+#second_page{
+    min-height: 60vh;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+#second_page span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4rem;
+    top: 2rem;
+}
+
+#second_page p{
+    padding-top: 5rem;
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+#trait{
+    border-top: 1px solid #000;
+    width: 15rem;
+    margin: auto;
+}
+
+#third_page{
+    width: 100%;
+    min-height: 38vh;
+    background-image: url(../img/bandeau.jpg);
+    background-size: cover;
+}
+
+#fourth_page{
+    text-align: center;
+    min-height: 30vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+#fourth_page h2{
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 0;
+    padding-top: 5rem;
+}
+
+
+#fourth_page input{
+    margin-bottom: 3rem;
+}
+
+
+/*---------------------------------------------------------------------------------*/
+footer{
+    background-color: #363636;
+    height: 10rem;
+    width:100%;
+}
+
+footer nav{
+    margin-left: 5rem;
+}
+
+footer li{
+    list-style-type: none;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    line-height: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
